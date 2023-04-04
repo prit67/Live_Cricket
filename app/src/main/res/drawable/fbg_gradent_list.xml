@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <animation-list xmlns:aapt="http://schemas.android.com/aapt" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/fbg_gradent1" android:duration="4000"/>
+
+    <item android:drawable="@drawable/fbg_gradent2" android:duration="4000"/>
+
+    <item android:drawable="@drawable/fbg_gradent3" android:duration="4000"/>
+
+</animation-list>

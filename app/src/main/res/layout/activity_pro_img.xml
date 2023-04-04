@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FFFFFF"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+
+
+            <TextView
+
+                android:id="@+id/tsy"
+                style="@style/viewParent.headerText.NoMode"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:textSize="20dp"
+                android:layout_marginTop="30dp"
+                android:lineSpacingExtra="6dp"
+                android:text=" Your Profile Image " />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_below="@+id/tsy"
+                android:layout_marginTop="35dp"
+                android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_gravity="center"
+               android:layout_centerHorizontal="true"
+                android:layout_width="122dp"
+
+                android:id="@+id/icon"
+                android:src="@drawable/sq"
+                android:layout_height="110dp"/>
+
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/button1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_centerHorizontal="true"
+                   android:layout_marginLeft="-40dp"
+                    android:layout_toEndOf="@+id/icon"
+                    android:clickable="true"
+                    android:layout_alignParentBottom="true"
+                    app:backgroundTint="@color/colorPrimaryDark"
+                    android:src="@drawable/plus"
+
+                     />
+            </RelativeLayout>
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/saved"
+                style="@style/loginButton"
+                android:layout_gravity="center_horizontal"
+              android:layout_marginTop="45dp"
+                android:text="Save"
+
+                app:spinning_bar_color="#FFF"
+                 />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SKIP"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#111"
+                android:id="@+id/skip"/>
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <ImageView
+        android:layout_width="73dp"
+        android:layout_height="88dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="30dp"
+
+         />
+
+</RelativeLayout>

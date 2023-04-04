@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pointtab">
+
+    <androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_app_bar"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginLeft="-10dp"
+        android:layout_height="wrap_content"
+
+
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+        <ImageView
+            android:id="@+id/kar"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="11.3dp"
+            android:gravity="top"
+            android:src="@drawable/back"
+            />
+
+        <TextView
+            android:id="@+id/tt1"
+            android:layout_toEndOf="@+id/kar"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginLeft="11dp"
+            android:gravity="center_vertical"
+            android:text="CrickLive"
+
+            android:textColor="#ffffff"
+            android:textSize="20dp"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <RelativeLayout
+
+        android:id="@+id/main_app_bar1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/main_app_bar"
+
+        android:background="#49954C">
+
+        <LinearLayout
+            android:id="@+id/lin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp">
+
+            <TextView
+                android:id="@+id/point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:gravity="center_vertical"
+                android:text="Point Table"
+                android:textColor="#ffffff"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:id="@+id/first"
+                android:visibility="gone"
+                android:layout_below="@+id/main_app_bar1"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/fow"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#C7EACD"
+                    android:padding="8dp"
+                    android:weightSum="11">
+
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="6dp">
+
+                        <TextView
+                            android:id="@+id/teams"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="1dp"
+                            android:fontFamily="sans-serif"
+                            android:text="Teams"
+
+
+                            android:textColor="#111111"
+                            android:textSize="14dp" />
+
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:id="@+id/p"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="P"
+                            android:textColor="#222"
+                            android:textSize="14dp"
+                            android:typeface="sans"
+                            app:fontFamily="sans-serif" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:id="@+id/w"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="W"
+                            android:textColor="#222"
+                            android:textSize="14dp"
+                            android:typeface="sans"
+                            app:fontFamily="sans-serif" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:id="@+id/l"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="L"
+                            android:textColor="#222"
+                            android:textSize="14dp"
+                            android:typeface="sans"
+                            app:fontFamily="sans-serif" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:id="@+id/nr"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="NR"
+                            android:textColor="#222"
+                            android:textSize="14dp"
+                            android:typeface="sans"
+                            app:fontFamily="sans-serif" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:id="@+id/pts"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="Pts"
+                            android:textColor="#222"
+                            android:textSize="14dp"
+                            android:typeface="sans"
+                            app:fontFamily="sans-serif" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:id="@+id/nrr"
+                            android:layout_width="40dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="NRR"
+                            android:textColor="#222"
+                            android:textSize="14dp"
+                            android:typeface="sans"
+                            app:fontFamily="sans-serif" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/first">
+
+    </androidx.recyclerview.widget.RecyclerView>
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="216dp"
+                android:background="@drawable/color"
+                android:indeterminateTint="#ffffff" />
+
+        </RelativeLayout>

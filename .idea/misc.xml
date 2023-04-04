@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Developement/New folder/MyApplication5/app/src/main/res/menu/navigation.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable-v24/dsn.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable-v24/dsn1.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable-v24/dsn2.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable-v24/dsn2m.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable-v24/dsn2m1.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable-v24/dsn2m2.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable-v24/dsn4.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable-v24/dsnvv.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable-v24/person.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable/about.xml" value="0.1921875" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable/avd_instagram_like.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable/cats.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable/dream.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable/like.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable/love.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable/moon.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable/photo.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable/play.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable/right.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable/right1.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable/share.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable/shari.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/drawable/shh.xml" value="0.20038610038610039" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_abouttest.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_crop.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_dreamm.xml" value="0.1736111111111111" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_main.xml" value="0.18125" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_main3.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_matchsh.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_moreview.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_newsdetails.xml" value="0.16" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_newsdetails2.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_newsview.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_newsview1.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_newsviewc.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_otp1.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_pointtab.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_profile.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_register1.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_startting.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_t1.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_t2.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_testing.xml" value="0.1736111111111111" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_user_details1.xml" value="0.18841698841698842" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/activity_user_details2.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/batting.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/batting1.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/bowling.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/bowling1.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/cmnt.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/dreamm1.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fragment_award.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fragment_bat_c.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fragment_fmatch.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fragment_fsquad.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fragment_fstat.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fragment_home.xml" value="0.18841698841698842" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fragment_news.xml" value="0.18841698841698842" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fragment_newsurl.xml" value="0.2" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fragment_profile.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fragment_tab1.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fragment_tab111.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fragment_tab2.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fragment_tab222.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fragment_tab3.xml" value="0.1736111111111111" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fragment_tab333.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fragment_tab444.xml" value="0.1736111111111111" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/fsq.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/item.xml" value="0.2" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/item1.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/item3.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/item31.xml" value="0.152" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/item5.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/item6.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/item7.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/itempoint.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/itemsquad.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/itemvid.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/list_item.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/m1.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/newsviewc.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/pt1.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/pt2.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/s1.xml" value="0.17847222222222223" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/seri.xml" value="0.16527777777777777" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/layout/v1.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/menu/activity_drawer_drawer.xml" value="0.18055555555555555" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/menu/mymenu.xml" value="0.190625" />
+        <entry key="..\:/Android Developement/Taxi_app_android_code_2.0.1/MyApplication5/app/src/main/res/menu/navigation.xml" value="0.190625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

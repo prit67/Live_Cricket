@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EF1010</color>
+    <color name="colorPrimaryDark">#EF1010</color>
+    <color name="colorAccent">#1E1D1D</color>
+    <color name="screen_background">#FFFFFF</color>
+    <color name="colorPrimaryFaded">#66b18b</color>
+
+    <color name="gnt_test_background_color">#00F4F4F4</color>
+    <color name="gnt_test_background_color_2">#00A3A3A3</color>
+    <color name="gnt_black">#000000</color>
+    <color name="gnt_white">#FFFFFF</color>
+    <color name="gnt_red">#FF0000</color>
+    <color name="gnt_green">#00FF00</color>
+    <color name="gnt_blue">#5C84F0</color>
+    <color name="gnt_ad_green">#3A6728</color>
+    <color name="gnt_gray">#808080</color>
+
+    <color name="darkTextColor">#020000</color>
+    <color name="contentTextColor">#020000</color>
+    <color name="register_bk_color">#11CFC5</color>
+    <color name="login_bk_color">#fff</color>
+    <color name="whiteTextColor">#fff</color>
+    <color name="primaryTextColor">#11CFC5</color>
+
+    <color name="org">#DC911F</color>
+    <color name="finish">#108014</color>
+    <color name="live">#EF1010</color>
+
+    <color name="gold">#CFB53B</color>
+</resources>

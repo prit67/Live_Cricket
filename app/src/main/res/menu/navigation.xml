@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:enabled="true"
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:enabled="true"
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/cricket"
+        android:title="Matches" />
+
+    <item
+        android:enabled="true"
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/dream"
+        android:title="I" />
+    <item
+        android:enabled="true"
+        android:id="@+id/navigation_notifications2"
+        android:icon="@drawable/news"
+        android:title="News" />
+
+
+
+</menu>

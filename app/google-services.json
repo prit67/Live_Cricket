@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "970190701365",
+    "firebase_url": "https://cricklive-56532-default-rtdb.firebaseio.com",
+    "project_id": "cricklive-56532",
+    "storage_bucket": "cricklive-56532.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970190701365:android:a3a86d62c65d639993027c",
+        "android_client_info": {
+          "package_name": "com.cricket.crickais.cricketaisps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970190701365-fh75tgcr4hm50lfl3k138ccko90m1t37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDQfWTtd8U315n0lBtCDArGJmCDhbEugo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970190701365-fh75tgcr4hm50lfl3k138ccko90m1t37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

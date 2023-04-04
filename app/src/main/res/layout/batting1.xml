@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:padding="3dp"
+        android:id="@+id/tabllayout"
+        android:background="#fff"
+        >
+
+        <RelativeLayout
+            android:layout_width="170dp"
+            android:layout_marginTop="3dp"
+android:layout_marginBottom="1.5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="47dp"
+                android:id="@+id/icon"
+                android:src="@drawable/ic_launcher_background"
+                android:layout_height="37dp"/>
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:id="@+id/stricker_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_toEndOf="@+id/icon"
+                android:fontFamily="sans-serif-medium"
+                android:text="Ravichandran Aswin"
+                android:textColor="#021E57"
+                android:textSize="14dp"
+                />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_marginLeft="7dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:id="@+id/stricker_player_run"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="R23"
+                android:textColor="#111"
+                android:textStyle="bold"
+                android:textSize="14dp"
+                android:typeface="sans"
+                android:fontFamily="sans-serif-medium" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_width="30dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/stricker_player_bowl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="B12"
+                android:layout_marginTop="3dp"
+                android:textSize="14dp"
+                app:fontFamily="sans-serif" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_width="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/stricker_player_4s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="4s"
+                android:layout_marginTop="3dp"
+                android:textSize="14dp"
+                app:fontFamily="sans-serif" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_width="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/stricker_player_6s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="6s"
+                android:layout_marginTop="3dp"
+                android:textSize="14dp"
+                app:fontFamily="sans-serif" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="1.5dp"
+            android:layout_width="40dp"
+            android:layout_marginLeft="10dp"
+
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/stricker_player_sr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:layout_marginTop="3dp"
+                android:text="12.45"
+
+                android:textSize="14dp"
+
+                app:fontFamily="sans-serif" />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:id="@+id/kk"
+                    android:orientation="vertical">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/date"
+                        tools:ignore="UselessParent">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAllCaps="true"
+                            android:text="FEATURED MATCHES"
+                            android:textSize="14sp"
+                            android:textStyle="bold"
+                            android:textColor="#111"
+                            />
+
+
+                    </RelativeLayout>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/recyclerview3"
+                        android:layout_below="@+id/date"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+                </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kk"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/color"
+        android:indeterminateTint="#ffffff" />
+
+    <ScrollView
+        android:layout_below="@+id/progressBar"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/adView"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner1"></com.google.android.gms.ads.AdView>
+
+
+
+            <RelativeLayout
+                android:id="@+id/fourth"
+                android:layout_below="@+id/adView"
+android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="5dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/tope"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Featured Video"
+                    android:textAllCaps="true"
+                    android:textColor="#111"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/alls1d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/imk1d"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="View More"
+                    android:textAllCaps="true"
+                    android:textColor="#080C1C"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/imk1d"
+                    android:layout_width="15dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+
+                    android:layout_marginRight="14dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/play" />
+
+
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerviewvid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fourth"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="2dp" />
+
+            <RelativeLayout
+                android:id="@+id/third"
+android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/recyclerviewvid"
+                android:layout_marginTop="5dp"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:id="@+id/top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="TOP STORIES"
+                    android:textAllCaps="true"
+                    android:textColor="#111"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/alls1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_toLeftOf="@+id/imk1"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="View More"
+                    android:textAllCaps="true"
+                    android:textColor="#080C1C"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:id="@+id/imk1"
+                    android:layout_width="15dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentRight="true"
+
+                    android:layout_marginRight="14dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/play" />
+
+
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/third"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="2dp">
+
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+

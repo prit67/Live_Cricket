@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:id="@+id/main_app_bar"
+    android:background="@color/colorPrimaryDark"
+
+    android:layout_height="wrap_content"
+
+    app:title=""
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CrickLive"
+        android:id="@+id/apptext"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="" />
+
+
+
+</androidx.appcompat.widget.Toolbar>
+    <ImageView
+        android:id="@+id/go"
+        android:layout_width="43dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="25dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:gravity="top|end"
+         />
+
+</RelativeLayout>

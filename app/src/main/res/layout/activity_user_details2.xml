@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/cll_background"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginBottom="0dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/logo"
+                    android:src="@drawable/copy" />
+
+                <TextView
+                    android:layout_below="@+id/logo"
+                    style="@style/viewParent.headerText.NoMode"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:textSize="24dp"
+                    android:lineSpacingExtra="6dp"
+                    android:text=" Update\n Your \n Profile" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_register_hero" />
+            </RelativeLayout>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputEmail"
+                style="@style/parent"
+                android:layout_marginTop="@dimen/loginViewsMargin">
+
+                <EditText
+                    android:id="@+id/name"
+                    style="@style/modifiedEditText"
+                    android:hint="Your Name"
+                    android:textColor="#111"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:shadowColor="@color/colorPrimaryDark" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/website"
+                style="@style/parent"
+                android:layout_marginTop="@dimen/loginViewsMargin">
+
+                <EditText
+                    android:id="@+id/web"
+                    style="@style/modifiedEditText"
+                    android:hint="Add Your Website (optional)"
+
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:shadowColor="@color/colorPrimaryDark" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/abo"
+                style="@style/parent"
+                android:layout_marginTop="@dimen/loginViewsMargin">
+
+                <EditText
+                    android:id="@+id/about"
+                    style="@style/modifiedEditText"
+                    android:hint="About Yourself"
+
+                    android:inputType="textMultiLine"
+                    android:maxLines="50"
+                    android:shadowColor="@color/colorPrimaryDark" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
+                android:id="@+id/cirLoginButton"
+                style="@style/loginButton"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/loginViewsMargin"
+                android:text="Update"
+                app:initialCornerAngle="27dp"
+                app:spinning_bar_color="#FFF"
+                app:spinning_bar_padding="6dp"
+                app:spinning_bar_width="4dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="."
+                    android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:id="@+id/phnnum"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:id="@+id/images"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_centerVertical="true"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:visibility="invisible"/>
+
+
+
+    <TextView
+        android:visibility="gone"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/auto_detecting_otp_msg"
+        android:layout_width="wrap_content"
+        android:text="Detecting OTP in your phone"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/news"
+        android:background="@drawable/dsn4"
+
+        >
+
+        <RelativeLayout
+
+
+            android:id="@+id/mf1"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:background="#49954C">
+
+            <LinearLayout
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp">
+
+                <TextView
+                    android:id="@+id/point"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="center_vertical"
+                    android:text="Points Table"
+                    android:textColor="#ffffff"
+                    android:textSize="13dp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_below="@+id/mf1"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:id="@+id/mf"
+            android:background="#ffffff"
+            >
+
+            <RelativeLayout
+                android:id="@+id/mb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"
+
+                >
+
+                <TextView
+                    android:id="@+id/matchno"
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="1dp"
+                    android:text="1st Match . WTC 2021"
+                    android:textColor="#064F88"
+
+                    android:textSize="13sp" />
+
+
+                <ImageView
+                    android:id="@+id/icon"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/matchno"
+                    android:layout_marginTop="13dp"
+                    android:src="@drawable/bg_flag_india"
+
+
+                    />
+
+                <TextView
+                    android:id="@+id/team1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_below="@+id/matchno"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_toEndOf="@+id/icon"
+                    android:gravity="center_vertical"
+                    android:text="Popua New Guinea"
+                    android:textColor="#f7151515"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/ts1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_below="@+id/matchno"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_toEndOf="@+id/team1"
+                    android:gravity="center_vertical"
+                    android:text="India"
+                    android:textColor="#f7151515"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:id="@+id/fcol"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="14dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/dsnvv"
+                    android:backgroundTint="#108014">
+
+                    <TextView
+                        android:id="@+id/finish"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginTop="1dp"
+                        android:layout_marginRight="4dp"
+                        android:layout_marginBottom="2dp"
+                        android:text="Finished"
+                        android:textColor="#ffffff"
+                        android:textSize="9dp" />
+
+                </RelativeLayout>
+
+
+                <ImageView
+                    android:id="@+id/icon1"
+                    android:layout_width="40dp"
+                    android:layout_height="20dp"
+                    android:layout_below="@+id/icon"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/bg_flag_pakistan"
+
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/team2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_below="@+id/team1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_toEndOf="@+id/icon1"
+                    android:gravity="center_vertical"
+                    android:text="Pakistan"
+                    android:textColor="#f7151515"
+                    android:textSize="17dp" />
+
+                <TextView
+                    android:id="@+id/ts2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_below="@+id/ts1"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="11dp"
+                    android:layout_toEndOf="@+id/team2"
+                    android:gravity="center_vertical"
+                    android:text="India"
+                    android:textColor="#f7151515"
+                    android:textSize="17dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/summary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/team2"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginBottom="6dp"
+                    android:maxLength="53"
+                    android:text="Western Province won by 6 wickets (with 18 balls remaining) "
+                    android:textColor="#BD3E0D"
+                    android:textSize="13.8sp" />
+
+            </RelativeLayout>
+
+
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <com.google.android.ads.nativetemplates.TemplateView
+        android:id="@+id/my_template"
+        android:visibility="gone"
+        android:layout_below="@+id/news"
+        app:gnt_template_type="@layout/gnt_small_template_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

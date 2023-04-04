@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".Tab2">
+
+    <androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-10dp"
+        android:background="@color/colorPrimaryDark"
+
+
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+        <ImageView
+            android:id="@+id/kar"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="11.3dp"
+            android:gravity="top"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tt1"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginLeft="11dp"
+            android:layout_toEndOf="@+id/kar"
+            android:gravity="center_vertical"
+            android:text="Back"
+
+            android:textColor="#ffffff"
+            android:textSize="22dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:id="@+id/log"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="107dp"
+            android:src="@drawable/stem"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/iconn1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Match has not started yet."
+            android:layout_below="@+id/iconn1"
+            android:layout_marginTop="7dp"
+            android:textColor="#111"
+            android:textSize="14sp"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:layout_below="@+id/main_app_bar"
+        android:id="@+id/start">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/tip"
+            android:background="@drawable/dsn4"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:id="@+id/top"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#C7EACD">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="indian Premier Legue"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/bar"
+                    android:textColor="#111"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="15dp"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/fsc"
+
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/top">
+
+                <TextView
+                    android:id="@+id/team10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="7dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Pakistan"
+                    android:textColor="#0C1D61"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="Pakistan"
+                    android:layout_marginTop="13dp"
+                    android:id="@+id/team1012"
+                    android:layout_toEndOf="@+id/team10"
+                    android:textSize="14dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/team101"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/team10"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="7dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Pakistan"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="65dp"
+                    android:layout_marginBottom="7dp"
+                    android:text="Pakistan"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/team102"
+                    android:layout_toEndOf="@+id/team101"
+                    android:textSize="17dp"
+                    android:layout_below="@+id/team10"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="17dp"
+                    android:text="Pakistan"
+                    android:id="@+id/team103"
+                    android:textSize="16dp"
+                    android:layout_below="@+id/team101"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#D30909"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/ssc"
+                android:layout_below="@+id/top">
+
+                <TextView
+                    android:id="@+id/team20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="6dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="Pakistan"
+                    android:textColor="#0C1D61"
+                    android:textSize="18dp" />
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="6dp"
+                    android:text="Pakistan"
+                    android:layout_marginTop="13dp"
+                    android:id="@+id/team10121"
+                    android:layout_toEndOf="@+id/team20"
+                    android:textSize="14dp"/>
+
+                <TextView
+                    android:id="@+id/team201"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/team20"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="6dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Pakistan"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="65dp"
+                    android:layout_marginBottom="6dp"
+                    android:text="Pakistan"
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/team202"
+                    android:layout_toEndOf="@+id/team201"
+                    android:textSize="17dp"
+                    android:layout_below="@+id/team20"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="Pakistan"
+                    android:id="@+id/team203"
+                    android:textSize="16dp"
+                    android:layout_below="@+id/team201"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#D30909"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:id="@+id/ssc1"
+                android:layout_below="@+id/top">
+
+                <TextView
+                    android:id="@+id/team2011"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="6dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Pakie"
+                    android:textColor="#111"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/team20111"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_toEndOf="@+id/team2011"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="6dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Pakistan"
+                    android:textColor="#111"
+                    android:textSize="24dp" />
+
+
+                <TextView
+                    android:id="@+id/team2012"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/team2011"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginBottom="6dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Pakiee"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    />
+                <TextView
+                    android:id="@+id/team20122"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/team2011"
+                    android:layout_toEndOf="@+id/team2012"
+
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="6dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Pakistan"
+                    android:textColor="#111"
+                    android:textSize="24dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Pakistan"
+                    android:id="@+id/team2013"
+                    android:textSize="16dp"
+                    android:layout_below="@+id/team2012"
+                    android:fontFamily="sans-serif"
+                    android:textColor="#D30909"/>
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/tip"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_marginTop="0dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#C7EACD"
+
+                    android:padding="3dp"
+                    android:id="@+id/tabllayout"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="165dp"
+                        android:layout_marginLeft="14dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Batsman"
+                            android:fontFamily="sans-serif-medium"
+                            android:textColor="#202022"
+                            android:id="@+id/stricker_player"
+                            android:textSize="14dp"
+                            />
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+
+
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:text="R"
+
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/stricker_player_run"
+                            android:gravity="center"
+                            android:textColor="#222"
+                            android:textSize="14dp"
+                            />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+
+                        android:layout_width="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="B"
+                            android:textSize="14dp"
+                            android:textColor="#222"
+                            android:id="@+id/stricker_player_bowl"
+                            />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/stricker_player_4s"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="4s"
+                            android:textColor="#222"
+                            android:textSize="14dp" />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/stricker_player_6s"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="6s"
+                            android:textColor="#222"
+                            android:textSize="14dp" />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="40dp"
+
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SR"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="7dp"
+                            android:textColor="#222"
+                            android:textSize="14dp"
+                            android:id="@+id/stricker_player_sr"
+
+                            />
+
+                    </RelativeLayout>
+                </LinearLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_below="@+id/tabllayout"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"
+                    android:id="@+id/list_view"
+                    android:background="#fff"
+                    android:layout_marginTop="0dp"
+                    android:dividerHeight="0.5dp"/>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_below="@+id/list_view"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/list_view_second"
+                    android:background="#fff"
+
+                    android:layout_marginTop="0dp"
+                    android:dividerHeight="0.5dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/list_view_second"
+                    android:weightSum="11"
+                    android:padding="3dp"
+                    android:layout_marginTop="0dp"
+                    android:id="@+id/tabllayout01"
+                    android:background="#C7EACD"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="165dp"
+                        android:layout_marginLeft="14dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/bowler"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:fontFamily="sans-serif-medium"
+                            android:text="Bowler"
+
+
+                            android:textColor="#222"
+                            android:textSize="14dp" />
+
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+
+
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/over"
+                            android:layout_width="30dp"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="O"
+                            android:textColor="#222"
+                            android:textSize="14dp"
+                            android:typeface="sans"
+                            android:fontFamily="sans-serif-medium" />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+
+                        android:layout_width="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/medi"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="M"
+                            android:textColor="#222"
+                            android:textSize="14dp"
+                            android:fontFamily="sans-serif" />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="20dp"
+                        android:layout_marginLeft="7dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/rrun"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:text="R"
+                            android:textColor="#222"
+                            android:textSize="14dp"
+                            android:fontFamily="sans-serif" />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/wik"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:text="W"
+                            android:textColor="#222"
+                            android:textSize="14dp" />
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="40dp"
+
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:id="@+id/er"
+                            android:layout_centerHorizontal="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="7dp"
+                            android:fontFamily="sans-serif"
+                            android:text="ER"
+                            android:textColor="#222"
+                            android:textSize="14dp" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_below="@+id/tabllayout01"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/list_view1"
+                    android:background="#fff"
+
+                    android:layout_marginTop="0dp"
+                    android:dividerHeight="0.5dp"/>
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/list_view1"
+                    android:layout_marginTop="3dp"
+                    android:background="#fff"
+                    android:id="@+id/ptm">
+                    <TextView
+                        android:id="@+id/pttitle"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="PLAYER OF THE MATCH"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#222"
+                        android:textSize="13dp" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_marginTop="13dp"
+                        android:layout_width="50dp"
+                        android:layout_below="@+id/pttitle"
+                        android:id="@+id/icon"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/ic_launcher_background"
+                        android:layout_height="48dp"/>
+
+                    <TextView
+                        android:id="@+id/plr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/icon"
+                        android:text="Ravichandran Aswin"
+                        android:textColor="#0C1D61"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_below="@+id/pttitle"
+                        android:textSize="17dp"
+                        android:fontFamily="sans-serif" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ptm"
+                    android:layout_marginTop="3dp"
+                    android:background="#fff"
+                    android:id="@+id/pts">
+                    <TextView
+                        android:id="@+id/ptstitle"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="PLAYER OF THE SERIES"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="#222"
+                        android:textSize="13dp" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_marginTop="13dp"
+                        android:layout_width="50dp"
+                        android:layout_below="@+id/ptstitle"
+                        android:id="@+id/icon1"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:src="@drawable/ic_launcher_background"
+                        android:layout_height="48dp"/>
+
+                    <TextView
+                        android:id="@+id/plr1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@+id/icon1"
+                        android:text="Ravichandran Aswin"
+                        android:textColor="#0C1D61"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="6dp"
+                        android:layout_below="@+id/ptstitle"
+                        android:textSize="17dp"
+                        android:fontFamily="sans-serif" />
+
+
+                </RelativeLayout>
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_below="@+id/pts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/comment"
+                    android:background="@drawable/dsn44"
+                    android:layout_marginTop="1dp"
+                    android:dividerHeight="0.5dp"/>
+                <LinearLayout
+                    android:id="@+id/vm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/comment"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:padding="6dp"
+                    android:weightSum="11">
+
+                    <RelativeLayout
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        >
+
+                        <TextView
+                            android:id="@+id/load"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="sans-serif"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:text="View More"
+                            android:textColor="#fff"
+                            android:textSize="14dp" />
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        android:layout_centerHorizontal="true"
+        style="?android:attr/progressBarStyle"
+        android:indeterminateTint="#4CAF50"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
+
